@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Core\Audio.h" />
     <ClInclude Include="Core\Bounds.h" />
     <ClInclude Include="Core\Camera.h" />
     <ClInclude Include="Core\Canvas.h" />
@@ -52,6 +53,7 @@
     <ClInclude Include="Core\Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\Audio.cpp" />
     <ClCompile Include="Core\Bounds.cpp" />
     <ClCompile Include="Core\Camera.cpp" />
     <ClCompile Include="Core\Canvas.cpp" />

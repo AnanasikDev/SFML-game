@@ -110,6 +110,9 @@
     <ClInclude Include="Core\commonh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Core\Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core\Camera.cpp">
@@ -186,6 +189,9 @@
     </ClCompile>
     <ClCompile Include="Core\Rigidbody.cpp">
       <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Audio.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -17,6 +17,11 @@ int main() {
 	aengine::Random::initSeed();
 	agame::GameController::init();
 
+	aengine::ASound sound = aengine::Audio::Load("ak47_shot.ogg");
+	sound.sound.play();
+	//std::unique_ptr<aengine::ASound> sound = aengine::Audio::LoadPtr("ak47_shot.ogg");
+	//sound->sound.play();
+
 	while (window.isRunning()) {
 
 		agame::GameController::preUpdate();
